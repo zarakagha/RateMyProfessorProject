@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rate My Prof Extension</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="#"/>
+        <link href="/static/index.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="title">
+        <h1>Rate My Professor Api Project</h1>
+        </div>
+        <hr></hr>
+        
+        <p>Please enter the university you are searching?</p>
+        
+       <form action="/process" method="POST">
+       <input type="text" placeholder="Search for a University" name="university">
+
+        <hr></hr>
+        
+        <p>Please enter the professors first name?</p>
+        <form action="/process" method="POST">
+        <input type="text" placeholder="Enter First Name" name="firstname">
+          
+    
+        <hr></hr>
+        <p>Please enter the professors last name?</p>
+        <form action="/process" method="POST">
+        <input type="text" placeholder="Enter Last Name" name="lastname">
+        <br>
+        <hr></hr>
+        <input type="submit" name="submit">
+            
+        </form>
+   
+
+        
+    
+    </body>
+
+
+</html>
